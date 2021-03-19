@@ -25,7 +25,11 @@ pipeline {
 
         stage('stage 2') {
             steps {
+<<<<<<< HEAD
                 sh 'echo hello guys from stage 2!'
+=======
+                sh 'echo hello from stage 2!'
+>>>>>>> 111f7c07883a944644e1ca366a1c0d93d96542d6
             }
         }
 
